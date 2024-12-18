@@ -4,7 +4,38 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>OLMC Sound Board</title>
+        <link rel="stylesheet" href="./styles.css" />
 	</head>
 	<body>
+        <main>
+            <h1>My Sound Board</h1>
+            <section id="sounds">
+                <div class="keys">
+                    <div data-key="65" class="key"><span class="soundLabel">Wrong!</span><span class="keyLabel">A</span></div>
+                    <div data-key="83" class="key"><span class="soundLabel">Scream</span><span class="keyLabel">S</span></div>
+                    <div data-key="68" class="key"><span class="soundLabel">Sad Trombone</span><span class="keyLabel">D</span></div>
+                    <div data-key="78" class="key"><span class="soundLabel">TBA</span><span class="keyLabel">F</span></div>
+                    <div data-key="71" class="key"><span class="soundLabel">TBA</span><span class="keyLabel">G</span></div>
+                    <div data-key="72" class="key"><span class="soundLabel">TBA</span><span class="keyLabel">H</span></div>
+                    <div data-key="74" class="key"><span class="soundLabel">TBA</span><span class="keyLabel">J</span></div>
+                    <div data-key="75" class="key"><span class="soundLabel">TBA</span><span class="keyLabel">K</span></div>
+                    <div data-key="76" class="key"><span class="soundLabel">TBA</span><span class="keyLabel">L</span></div>
+                </div>
+            </section>
+        </main>
+
+        <audio data-key="65" src="./sounds/Wrong-buzzer.mp3"></audio>
+        <audio data-key="83" src="./sounds/Wilhelm-Scream.mp3"></audio>
+        <audio data-key="68" src="./sounds/womp-womp.mp3"></audio>
+        <audio data-key="78" src="./sounds/Wrong-buzzer.mp3"></audio>
+        <audio data-key="71" src="./sounds/Wrong-buzzer.mp3"></audio>
+        <audio data-key="72" src="./sounds/Wrong-buzzer.mp3"></audio>
+        <audio data-key="74" src="./sounds/Wrong-buzzer.mp3"></audio>
+        <audio data-key="75" src="./sounds/Wrong-buzzer.mp3"></audio>
+        <audio data-key="76" src="./sounds/Wrong-buzzer.mp3"></audio>
+
+
+
+        <script src="./app.js" charset="utf-8"></script>
 	</body>
 </html>
